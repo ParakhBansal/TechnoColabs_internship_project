@@ -5,7 +5,7 @@ import pandas as pd
 
 model =  pickle.load(open('xgbmodel.pkl','rb'))
 
-df = pd.read_csv(r'C:\Users\pb\Documents\task\parkinsons.data')
+df = pd.read_csv('parkinsons.data')
 x = df.drop(['name','status'],axis=1)
 
 k = np.array(x.columns)
