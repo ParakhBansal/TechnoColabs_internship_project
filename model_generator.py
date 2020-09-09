@@ -6,7 +6,7 @@ from xgboost import XGBClassifier
 import matplotlib.pyplot as plt
 
 #now let's read the training data
-df = pd.read_csv('parkinsons.data')
+df = pd.read_csv(r'C:\Users\pb\Documents\task\parkinsons.data')
 df.head()
 
 #this is a plot of target column
